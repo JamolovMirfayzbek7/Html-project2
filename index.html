@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desing</title>
+    <link rel="stylesheet" href="CSS/bulma.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/all.css">
+</head>
+<body>
+    <section class="hero is-medium is-header">
+        <div class="hero-head py-3">
+          <nav class="navbar">
+            <div class="container">
+              <div class="navbar-brand">
+                <a class="navbar-item">
+                  <img src="img/Logo (4).png" alt="Logo">
+                </a>
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMenuHeroA">
+                  <span aria-hidden="true"></span>
+                  <span aria-hidden="true"></span>
+                  <span aria-hidden="true"></span>
+                </a>
+              </div>
+              <div id="navbarMenuHeroA" class="navbar-menu">
+                <div class="navbar-end">
+                  <a class="navbar-item is-active">
+                    Возможности
+                  </a>
+                  <a class="navbar-item">
+                    Преигркш
+                  </a>
+                  <a class="navbar-item">
+                    Отзиви
+                  </a>
+                  <a class="navbar-item">
+                    Контакти
+                  </a>
+                  <span class="navbar-item">
+                    <div class="buttons">
+                      <a class="button is-link is-rounded is-outlined">
+                        <span>BXOD</span>
+                      </a>
+                      <a class="button is-link is-rounded ">
+                        <span onclick="openModal()">Оставить отзыв</span>
+                      </a>
+                    </div>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      
+        <!-- Hero content: will be in the middle -->
+        <div class="hero-body">
+          <div class="container">
+            <div class="columns">
+              <div class="column is-7">
+                <h1 class="title header-title is-2">
+                  Запуститте свой бизнес
+                </h1>
+                <div class="has-text-right my-3">
+                  <span class="title is-1 header-title-main">
+                    За 1 день
+                  </span>
+                </div>
+                <span class="title header-title title-oulined is-2">
+                  Не выодя из дома
+                </span>
+
+                <div class="columns mt-4">
+                  <div class="colum is-7">
+                    <p class="has-text-main"> 
+                      Воспользуйтесь высокодоходной бизнес-
+                      моделью и получайте прибыль онлайн. 
+                      Узнайте все подробности программы 
+                      после бесплатной регистрации.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="buttons">
+              <button class="button is-rounded is-warning is-medium">
+                Зарегистрироваться
+              </button>
+              <button class="button is-rounded is-light is-medium">
+                Что мы предлагаем
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero footer: will stick at the bottom -->
+        <div class="hero-foot">
+            <div class="container">
+                <div class="columns">
+                    <div class="column is">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+          <br>
+          <br>
+        </div>
+        <section class="section">
+          <div class="container">
+            <div class="columns is-vcentered">
+              <div class="column is-4">
+                <div class="box">
+                  <div class="columns">
+                    <div class="column">
+                      <h1 class="title is-6 has-text-main is-uppercase has-text-weight-bold">Есть вопросы?</h1>
+                      <h2 class="subtitle has-text-main is-6"> C вами на связи:</h2>
+                      <article class="media">
+                      <div class="media-left">
+                        <figure class="image is-64x64">
+                          <img class="is-rounded" src="https://image.flaticon.com/icons/png/512/711/711769.png" alt="">
+                        </figure>
+                      </div>
+                      <div class="media-content">
+                        <div class="content">
+                          <p><i class="fas fa-user"> </i>Johne Doe</p>
+                          <p><i class="fas fa-phone-alt"></i>+998 99 361 7817</p>
+                        </div>
+                        
+                      </div>
+                    </article>
+                  </div>
+  
+                  
+                    <div class="column is-narrow">
+                      <i class="fas fa-times mb-4"></i><br>
+                      <i class="fab fa-twitter"></i><br>
+                      <i class="fab fa-facebook"></i><br>
+                      <i class="fab fa-vk"></i><br>
+                      <i class="fab fa-instagram"></i><br>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="column is-7 is-offset-1">
+                <div class="columns has-text-main has-text-centered">
+                  <div class="column">
+                    <img class="features" src="img/savings.svg" alt="image"> 
+                    <p class="is-size-7">Минимальные риски и вложения</p>  
+                  </div>
+                  <div class="column">
+                    <img class="features" src="img/leaves.svg" alt="image">
+                    <p class="is-size-7">Натуральные продукты для здоровья </p>
+                  </div>
+                  <div class="column">
+                    <img class="features" src="img/airplane.svg" alt="image">
+                    <p class="is-size-7">Бизнес-обучение  и путешествия</p>
+                  </div>
+                  <div class="column">
+                    <img class="features" src="img/hands.svg" alt="image">
+                    <p class="is-size-7">Поддержка наставника</p>
+                  </div>                 
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+  
+        <section class="section">
+          <div class="columns is-vcentered">
+            <div class="column is-6">
+              <img src="img/odam.png" >
+            </div>
+            <div class="column is-5">
+              <h1 class="title is-uppercase is-1 has-text-main"> получайте <br> стабильный доход</h1>
+              <h2 class="title is-uppercase is-5 has-text-main">и повышайте качество жизни</h2>
+              <p class="subtitle mt-5">Мы предлагаем вам готовую систему запуска , ведения и развития онлайн-бизнеса с нуля.</p>
+              <p>В неё входят: </p><br>
+              <ul>
+                <li><img src="img/bullet.svg"> эффективные инструменты интернет-маркетинга, </li>
+                <li><img src="img/bullet.svg"> инновационные эко-продукты для здоровья,</li>
+                <li><img src="img/bullet.svg"> система бизнес-обучения и личностного развития</li>
+              </ul>         
+            </div>
+          </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <h1 class="title header-title is-3 has-text-centered">
+            Решение для тех,  <br> кто хочет работать на себя
+          </h1>
+
+          <div class="columns is-centered my-5">
+            <div class="column is-10">
+              <div class="columns is-variable is-5">
+                <div class="column">
+                  <div class="box py-6 px-5 solution">
+                    <h1 class="title header-title is-6">бизнес-модель</h1>
+
+                    <figure class="image is-48x48 mt-4">
+                      <img src="img/business-model.svg">
+                    </figure>
+                    
+                    <div class="bottom-bordered my-5"></div>
+
+                    <p class="is-size-7 has-text-main">
+                      Не нужно искать продукт, технологии и
+                      каналы продвижения. Все необходимые инструменты для 
+                      быстрого и собственного бизнеса уже готовы
+                    </p>
+
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="box py-6 px-5 solution">
+                    <h1 class="title header-title is-6">высокий доход</h1>
+
+                    <figure class="image is-48x48 mt-4">
+                      <img src="img/profit.svg">
+                    </figure>
+
+                    <div class="bottom-bordered my-5"></div>
+
+                    <p class="is-size-7 has-text-main">
+                      Ежемесячно увеличивайте прибыль 
+                      и достигайте поставленных целей, 
+                      используя и рекомендации. Нет никакиx
+                      ограничений по уровню дохода
+                    </p>
+
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="box py-6 px-5 solution">
+                    <h1 class="title header-title is-6">свободный график</h1>
+
+                    <figure class="image is-48x48 mt-4">
+                      <img src="img/free-graphic.svg">
+                    </figure>
+
+                    <div class="bottom-bordered my-5"></div>
+
+                    <p class="is-size-7 has-text-main">
+                      Управляйте своим временем 
+                      и работайте в комфортном для себя режиме. 
+                      У вас появится путешествовать, 
+                      близкими и больше отдыхать
+                    </p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="block has-text-centered">
+            <a href="" class="button is-rounded is-cta">
+              Зарегистрироваться
+            </a>
+            <p class="has-text-main mt-4 is-size-7">
+              Регистрируйтесь в системе, чтобы<br>узнать подробнее о доходах
+            </p>
+          </div>
+
+        </div>
+      </section>
+
+      <h1 class="title header-title has-text-centered is-4 my-5">ЧТО ВАС ЖДЕТ</h1>
+      <h1 class="header-title has-text-centered is-4 my-5">ПОСЛЕ РЕГИСТРАЦИИ</h1>
+
+      <br>
+      <div class="container">
+          <div class="columns is-vcentered">
+           <div class="column"><h1 class="title">Обучение</h1>
+          <h1 class="subtitle">всем необходимым знаниям для старта</h1>
+          <img src="img/Group 158 (1).svg">
+          <p>
+            С этими знаниями и при поддержке
+            куратора, вы сможете выйти на высокий 
+            уровень дохода уже через месяц
+          </p>
+          </div>
+          <div class="column"><img src="img/Mask Group.png" alt=""></div>
+        </div>
+        </div>
+        <br><br><br><br>
+        <div class="container">
+        <div class="columns is-vcentered">
+          <div class="column"><img src="img/Mask Group (1).png" alt=""></div>
+          <div class="column"><h1 class="title">эко-продукты</h1>
+            <h1 class="subtitle">для комплексного оздоровления организма</h1>
+                   <p>
+                    Уникальные формулы наших продуктов 
+                    созданы по методу синергизма, получены благодаря 
+                    нативной вытяжке из высокоэффективного сырья и на 
+                    100% состоят из натуральных компонентов
+
+                    Вы сможете комплексно оздоровить свое тело, укрепить 
+                    иммунитет и улучшить самочувствие с помощью инновационных
+                    эко-продуктов по специальным ценам для партнеров
+                   </p>   
+                   </div>
+                  
+                 </div>
+               </div>
+          <br><br><br><br>
+          <div class="container">
+          <div class="columns is-vcentered">
+            <div class="column"><h1 class="title">команда</h1>
+            <h1 class="subtitle">партнеров-единомышленников</h1>
+            <p>
+              В компании вы найдете людей со схожими интересами, целями 
+              и взглядами на жизнь
+
+              У нас нет конкуренции и соперничества, 
+              что делает амтфосферу благоприятной для 
+              сотрудничества и общения. Знакомьтесь, 
+              обменивайтесь опытом, встречайтесь на 
+              бизнес-мероприятиях 
+              и двигайтесь к большим целям ВМЕСТЕ
+            </p>
+          </div>
+            <div class="column"><img src="img/Mask Group (2).png" alt=""></div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="columns has-work">
+          <div class="column is-6">
+              <div class="has-rasm">
+                <h1 class="title header-title has-into">развивайте свое делои получайте доход в партнерстве с нами</h1>
+                <div>
+                  <a href="#" class="button is-rounded is-info work-button is-size-5 mt-4">зарегистрироваться</a> 
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
+
+
+      <div>
+        <br>
+        <br>
+        <br>
+      </div>
+        <section class="section waves-bg has-waves-bg">
+          <div class="columns is-vcentered">
+            <div class="column phones">
+            <img src="img/phone-section.png">
+            </div>
+        
+            <div class="column">
+            <div class="columns">
+              <div class="column">
+                <div class="box">
+                  <figure class="image is-48x48">
+                    <img src="img/online-course.svg">
+                  </figure>
+                  <div class="bottom-bordered my-4 has-text-main"></div>
+                  <p class="is-size-6  has-text-main">Пошаговое онлайн-обучение и руководство по запуску</p>
+              </div>
+              <div class="box">
+                <figure class="image is-48x48">
+                  <img src="img/people.svg">
+                </figure>
+                <div class="bottom-bordered my-4 has-text-main"></div>
+                <p class="is-size-6  has-text-main">Ваш личный наставник поможет решить любой вопрос</p>
+              </div>
+              <div class="box">
+                <figure class="image is-48x48">
+                  <img src="img/profit 1.svg">
+                </figure>
+                <div class="bottom-bordered my-4 has-text-main"></div>
+                <p class="is-size-6  has-text-main">Готовая система масштабирования бизнеса </p>
+              </div>
+            </div>
+
+            <div class="column">
+              <div class="box">
+                <figure class="image is-48x48">
+                  <img src="img/kalendar.svg">
+                </figure>
+                <div class="bottom-bordered my-4 has-text-main"></div>
+                <p class="is-size-6  has-text-main">Ваш личный веб-сайт для продвижения в интернете</p>
+              </div>
+              <div class="box">
+                <figure class="image is-48x48">
+                  <img src="img/eco 1.svg">
+                </figure>
+                <div class="bottom-bordered my-4 has-text-main"></div>
+                <p class="is-size-6  has-text-main">
+                  Сертифицированная, качественная эко- <br> продукция 
+                </p>
+              </div>
+              <div class="box">
+                <figure class="image is-48x48">
+                  <img src="img/hand-shake 2.svg">
+                </figure>
+                <div class="bottom-bordered my-4 has-text-main"></div>
+                <p class="is-size-6  has-text-main">Сильная поддержка команды и бизнес-партнеров </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+      </div>
+    </section>
+    </div>
+    <div class="kolumn">
+      <section class="container">
+        <div class="columns">
+          <div class="column">
+            <figure>
+              <img src="img/grupa8.svg">
+            </figure>
+          </div>
+          <div class="column">
+            <figure>
+              <img src="img/grup7.svg">
+            </figure>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div>
+      <img src="img/Group 235.svg">
+    </div>
+  
+
+    <div class="modal">
+      <div class="modal-background" onclick="closeModal()"></div>
+      <div class="modal-content">
+        <div class="box">
+          <h1 class="header-title is-size-4">Оставить отзыв</h1>
+
+          <form name="Post" netlify>
+            <div class="field">
+              <label class="label">Имя</label>
+              <div class="control has-icons-left">
+                <input class="input" type="text" placeholder="Имя" required name="name" id="name">
+                <span class="icon is-small is-left">
+                  <i class="fas fa-user"></i>
+                </span>
+              </div>
+            </div>
+
+            <div class="field">
+              <label class="label">Номер телефона</label>
+              <div class="control has-icons-left">
+                <input class="input"  name="phone" id="phone" type="text" required pacttrn="[0-9]" inputmode="numeric"placeholder="+998( )_ _ _  _ _ _ _">
+                <span class="icon is-small is-left">
+                  <i class="fas fa-phone-alt"></i>
+                </span>
+              </div>
+            </div>
+            
+            
+            <div class="field">
+              <label class="label">Email</label>
+              <div class="control has-icons-left">
+                <input class="input" type="email" placeholder="Ваш Email" required name="email" id="email">
+                <span class="icon is-small is-left">
+                  <i class="fas fa-envelope"></i>
+                </span>
+              </div>
+            </div>
+            
+
+            
+            <div class="field">
+              <label class="label">Message</label>
+              <div class="control">
+                <textarea class="textarea" name="message" required id="message" rows="3" placeholder="Ваш отзыв"></textarea>
+              </div>
+            </div>
+            
+            
+            <div class="field is-grouped">
+              <div class="control">
+                <button class="button is-link">Отправить</button>
+              </div>
+              <div class="control">
+                <button  onclick="closeModal()" class="button is-link is-light" >Отмена</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <button class="modal-close is-large" aria-label="close" onclick="closeModal()"></button>
+    </div>
+
+
+
+    <script src="./js/imask.js"></script>
+    <script>
+      var mask = IMask(document.querySelector('#phone'), {
+        mask: '+{998}(00)000-00-00'
+      })
+  
+      let modal = document.querySelector('.modal')
+  
+      function openModal () {
+        modal.classList.add('is-active')
+      }
+  
+      function closeModal () {
+        modal.classList.remove('is-active')
+      }
+
+      document.addEventListener('DOMContentLoaded', () => {
+
+// Get all "navbar-burger" elements
+const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+// Check if there are any navbar burgers
+if ($navbarBurgers.length > 0) {
+
+  // Add a click event on each of them
+  $navbarBurgers.forEach( el => {
+    el.addEventListener('click', () => {
+
+      // Get the target from the "data-target" attribute
+      const target = el.dataset.target;
+      const $target = document.getElementById(target);
+
+      // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+      el.classList.toggle('is-active');
+      $target.classList.toggle('is-active');
+
+    });
+  });
+}
+
+});
+    </script>
+</body>
+</html>

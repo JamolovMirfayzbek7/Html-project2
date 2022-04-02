@@ -1,0 +1,131 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.is-header {
+    background-image: url('../img/bg.png');
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 70%;
+}
+a.navbar-item{
+    color: #1c2d5a;
+}
+
+a.navbar-item:hover{
+    background: transparent;
+}
+
+.header-title{
+    color: #1c2d5a;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 0 !important;
+}
+
+.has-text-main{
+    color: #1C2D5A;
+}
+
+.header-title-main{
+    color: rgb(249, 158, 74);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.title-oulined{
+    color: transparent !important;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #A8AFC0;
+}
+
+.is-box{
+    /* Используя наш опыт и знания, вы сможете легко стать интернет-предпринимателем с доходностью от 500$ в месяц в нише эко-продуктов */
+
+    position: absolute;
+    width: 531px;
+    height: 60px;
+    left: 1232px;
+        top: 1845px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #1C2D5A;
+}
+
+.bottom-bordered{
+    width: 60px;
+    border-bottom: solid 2px rgba(28, 45, 90, 0.12);
+}
+
+.solution{
+    transition: background 400ms;
+}
+
+.solution:hover{
+    background: #39379F;
+    transition: 300ms;
+}
+
+.solution:hover .header-title, 
+.solution:hover .has-text-main{
+    color: #fff !important;
+}
+
+.solution:hover .bottom-bordered{
+    border-color: #fff;
+}
+
+.button.is-cta{
+    padding: 30px !important;
+    text-transform: uppercase;
+    background: linear-gradient(95.03deg, #F09642 0%, #F0DF42 145.26%);
+    border: none;
+    color: #fff;
+    font-weight: 500;
+}
+
+.has-waves-bg{
+    background-image: url('../img/waves.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom  center;
+}
+
+/* .has-column-bg{
+    background-image: url('../img/section-bg.jpg');
+    background-size: cover;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 50px 0 150px;
+    transform: translateY(-150px);
+} */
+
+.kolumn{
+    background-color: #7185DA;
+}
+
+
+.has-work {
+    background-image: url('../img/section-bg.jpg');
+    background-size: cover;
+    height: 580px;
+    margin-top: 100px;
+    }
+
+.has-rasm { 
+    background-image: url('../img/columns-bg.png');
+    background-size: cover;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 50px 0 150px;
+    transform: translateY(-150px);
+}
